@@ -24,3 +24,9 @@ public class TaskManager {
         }
     }
 }
+public static void main(String[] args) {
+    addTask("Learn Git Desktop");
+    addTask("Learn Java Branching");
+    showTasks();
+}
+
