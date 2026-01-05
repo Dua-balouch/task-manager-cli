@@ -1,11 +1,9 @@
 import java.util.ArrayList;
 
 public class TaskManager {
-
     static ArrayList<String> tasks = new ArrayList<>();
 
     public static void main(String[] args) {
-        // Initial test
         addTask("Learn Git Desktop");
         showTasks();
     }
@@ -21,7 +19,7 @@ public class TaskManager {
 
     public static void showTasks() {
         System.out.println("All Tasks:");
-        for (String task : tasks) {
+        for(String task: tasks) {
             System.out.println("- " + task);
         }
     }
